@@ -9,7 +9,11 @@ header{
     overflow: hidden;
     position: fixed;
     background-color: #FDFBF8;
-    top: 0;
+    margin-top: -13vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 html{
@@ -18,19 +22,15 @@ html{
 
 .logo{
     text-align: center;
-}
-
-.logo img{
-    width: 9em;
+    width: 13vh;
 }
 
 .nav-info{
     list-style: none;
     display: inline-flex;
     float: left;
-    margin-top: -3em;
-    margin-left: 12em;
-    gap: 2em;
+    margin-left: -70vh;
+    gap: 2vh;
 }
 
 .nav-info a{
@@ -50,9 +50,8 @@ html{
     list-style:none;
     display:inline-flex;
     float: right;
-    margin-top: -3em;
-    margin-right: 12em;
-    gap: 2em;
+    margin-right: -50vh;
+    gap: 2vh;
 }
 
 .nav-icon a{
@@ -79,30 +78,30 @@ html{
 }
 
 .about-us-info img{
-    width: 35em;
+    width: 50vh;
     border-radius: 100%;
     float: left;
-    margin-left: 12em;
+    margin-left: 19vh;
     display: block;
 
 }
 
 .about-us-info h2{
     font-family: 'Junge', serif;
-    font-size: 3em;
-    margin-top: 2em;
-    margin-right: 5.5em;
-    padding-top: 2.3em;
+    font-size: 5vh;
+    margin-top: 13vh;
+    margin-right: 24vh;
+    padding-top: 8vh;
 }
 
 .about-us-info p{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 25px;
-    margin-right: 12em;
-    margin-left: 32em;
+    margin-right: 20vh;
+    margin-left: 45vh;
     line-height: 1.5;
-    margin-bottom: 5em;
+    margin-bottom: 12vh;
 }
 
 .about-fenty-info{
@@ -112,31 +111,32 @@ html{
 }
 
 .about-fenty-info img{
-    width: 35em;
+    width: 50vh;
     border-radius: 100%;
     float: right;
-    margin-right: 12em;
-    display: block;    
+    margin-right: 19vh;
+    display: block;  
+    padding-top: 5vh;  
 }
 
 .about-fenty-info h2{
     font-family: 'Crimson Text', serif;
     font-family: 'Junge', serif;
-    font-size: 3em;
-    margin-top: 1em;
-    margin-right: 5.5em;
-    padding-top: 2em;
+    font-size: 5vh;
+    margin-top: 8vh;
+    margin-right: 8vh;
+    padding-top: 8vh;
 }
 
 .about-fenty-info p{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 25px;
-    margin-right: 33em;
-    margin-left: 5em;
-    padding-top: 1.3em;
+    margin-right: 74vh;
+    margin-left: 9vh;
+    padding-top: 3vh;
     line-height: 1.5;
-    margin-bottom: 5em;
+    margin-bottom: 10vh;
 }
 
 .about-rare-info{
@@ -146,29 +146,29 @@ html{
 }
 
 .about-rare-info img{
-    width: 35em;
+    width: 50vh;
     border-radius: 100%;
     float: left;
-    margin-left: 12em;
+    margin-left: 19vh;
     display: block;
+    padding-top: 5vh; 
 }
 
 .about-rare-info h2{
     font-family: 'Crimson Text', serif;
     font-family: 'Junge', serif;
-    font-size: 3em;
-    margin-top: 2em;
-    margin-right: 5.5em;
-    padding-top: 2.5em;
-
+    font-size: 5vh;
+    margin-top: 13vh;
+    margin-right: 24vh;
+    padding-top: 8vh;
 }
 
 .about-rare-info p{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 25px;
-    margin-right: 12em;
-    margin-left: 32em;
+    margin-right: 20vh;
+    margin-left: 45vh;
     line-height: 1.5;
 }
 
@@ -178,19 +178,18 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 140vh;
-    gap: 1em;
-    padding-bottom: 4em;
+    gap: 3vh;
 }
 
 .shop h2{
-        font-size: 3em;
+        font-size: 5vh;
         text-transform: uppercase;
         font-weight: 700;
         font-family:'Lato', sans-serif;
-        margin-left: -15em;
-        padding-top: 5em;
-        padding-bottom: 2em;
+        padding-top: 15vh;
+        padding-bottom: 12vh;
 }
 
 .container-section-info{
@@ -198,7 +197,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: -45em;
+
 }
 
 .container-element-info{
@@ -211,7 +210,7 @@ html{
     box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
     overflow: hidden;
     transition: all .25s;
-    margin: 20px;
+    margin: 2vh;
 }
 
 .container-element-info:hover{
@@ -221,7 +220,7 @@ html{
 
 .container-element-info p{
     color: black;
-    font-size: 2em;
+    font-size: 4vh;
     text-align: center;
     font-weight: 900;
     padding: 0 1rem;
@@ -242,7 +241,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 2vh;
     color: #FFFFFF;
     font-family: 'Questrial', sans-serif;
     font-weight: 600;
@@ -257,34 +256,33 @@ footer{
 
 .paragraph-contact{
     font-size: 15px;
-    padding-bottom: 2em;
+    padding-bottom: 2vh;
 }
 
 
 #Mail{
     background-color: black;
-    font-size: 1.4em;
+    font-size: 2vh;
     padding:10px;
     border-width: 0 2px 2px 0;
     border-color: #FFFFFF;
-    width: 17em;
-    margin-right: 2em;
+    width: 38vh;
     color: #FDFBF8;
 }
 
 ::placeholder{
     color: #FDFBF8;
     font-family:'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 2vh;
 }
 
 
 button{
     position: absolute;
-    margin-left: -10.5em;
-    margin-top: .7em;
+    margin-left: -10.5vh;
+    margin-top: .9vh;
     font-family: 'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 1.5vh;
     font-weight: 300;
     color: white;
     background-color: black;
@@ -293,41 +291,42 @@ button{
 
 #Celular{
     background-color: black;
-    font-size: 1.4em;
+    font-size: 2vh;
     padding:10px;
     border-width: 0 2px 2px 0;
     border-color: #FFFFFF;
-    width: 17em;
+    width: 38vh;
     color: #FDFBF8;
 }
 
 ::placeholder{
     color: #FDFBF8;
     font-family:'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 2vh;
 }
 
 .paragraph-info{
     font-family: 'Questrial', sans-serif;
     font-size: 10px;
     text-align: center;
-    margin-top: 2em;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .social-web{
-    margin-top: 5em;
+    margin-top: 8vh;
     display: flex ;
     flex-direction:row ;
     justify-content: center;
     text-align: center;
-    gap: 30em;
+    gap: 45vh;
     color: #FFFFFF;
     font-family: 'Questrial', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
+
 .social-web i{
     font-size: 30px;
     color: #E0BEB1;
@@ -351,13 +350,13 @@ button{
     padding-bottom: 5px;
     color: #FDFBF8;
     font-family: 'Questrial', sans-serif;
-    font-size: 2em;
+    font-size: 3vh;
 }
 
 .contact-footer p{
     color: #E0BEB1;
     font-family: 'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 1.5vh;
     font-weight: 500;
 }
 
@@ -365,14 +364,14 @@ button{
     padding-bottom: 10px;
     color: #FDFBF8;
     font-family: 'Questrial', sans-serif;
-    font-size: 2em;
+    font-size: 3vh;
     padding-top: 15px;
 }
 
 .footer-about-us p{
     color: #E0BEB1;
     font-family: 'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 1.5vh;
     font-weight: 500;
 }
 
@@ -410,4 +409,17 @@ button{
     border: none;
     height: 1px;
     background-color: #FDFBF8;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .nav-info{
+        margin-left: 5vh;
+    }
+    .nav-icon{
+        margin-right: 35vh;
+    }
+
+    .logo {
+        display: none;
+    }
 }
