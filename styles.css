@@ -12,7 +12,7 @@ header{
     margin-top: -13vh;
     height: 12vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -20,16 +20,21 @@ html{
    scroll-behavior: smooth; 
 }
 
+.logo-container{
+    width: 23%;
+}
+
 .logo{
-    text-align: center;
     width: 13vh;
+}
+
+.nav-info-container{
+    width: 20%;
 }
 
 .nav-info{
     list-style: none;
     display: inline-flex;
-    float: left;
-    margin-left: -70vh;
     gap: 2vh;
 }
 
@@ -46,16 +51,18 @@ html{
     color: black;
 }
 
+.nav-icon-container{
+    width: 3%;
+}
+
 .nav-icon{
-    list-style:none;
-    display:inline-flex;
-    float: right;
-    margin-right: -50vh;
+    list-style: none;
+    display: inline-flex;
     gap: 2vh;
 }
 
 .nav-icon a{
-    color:black ;
+    color: black;
     text-decoration: none;
     font-family: 'Cormorant SC';
     font-weight: 900;
@@ -65,10 +72,6 @@ html{
     background: #E0BEB1;
     border-radius: 50px;
     color: black;
-}
-
-.nav-icon i{
-    font-size: 20px;
 }
 
 .about-us-info{
@@ -102,6 +105,7 @@ html{
     margin-left: 45vh;
     line-height: 1.5;
     margin-bottom: 12vh;
+    padding-top: 3vh;
 }
 
 .about-fenty-info{
@@ -170,6 +174,7 @@ html{
     margin-right: 20vh;
     margin-left: 45vh;
     line-height: 1.5;
+    padding-top: 3vh;
 }
 
 .shop{
@@ -409,17 +414,4 @@ button{
     border: none;
     height: 1px;
     background-color: #FDFBF8;
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    .nav-info{
-        margin-left: 5vh;
-    }
-    .nav-icon{
-        margin-right: 35vh;
-    }
-
-    .logo {
-        display: none;
-    }
 }
