@@ -375,6 +375,23 @@ header{
     }
 }
 
+@media (max-width:598px) and (min-width:424px){
+    .nav-info{
+        margin-left:-10vh;
+        font-size: 11px;
+        text-align: center;
+    }
+    .nav-icon-container{
+        margin-right: -10vh;
+    }
+    .nav-icon{
+        font-size: 11px;
+    }
+    .contact-input{
+        margin-left: 110px;
+    }
+}
+
 @media (max-width:425px) {
     .nav-info{
         margin-left:-10vh;
