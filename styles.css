@@ -420,6 +420,47 @@ button{
     background-color: #FDFBF8;
 }
 
+@media (max-width:1455px){
+    .nav-info-container{
+        margin-left: -10vh;
+    }
+    .logo-container{
+        margin-left: -20vh;
+    }
+    .about-us-info img{
+        width: 35vh;
+        margin-left: 11vh;
+        margin-top: 13vh;
+    }
+    .about-us-info h2{
+        margin-left: 50vh;
+        margin-right: 10vh;
+    }
+    .about-us-info p{
+        margin-right: 30px;
+    }
+    .about-fenty-info img{
+        width: 35vh;
+        margin-right: 11vh;
+    }
+    .about-fenty-info p{
+        margin-right: 48vh;
+        margin-left: 5vh;
+    }
+    .about-rare-info img{
+        width: 35vh;
+        margin-left: 11vh;
+        margin-top: 6vh;
+    }
+    .about-rare-info h2{
+        margin-left: 50vh;
+        margin-right: 10vh;
+    }
+    .about-rare-info p{
+        margin-right: 30px;
+    }
+}
+
 @media (max-width:1024px) {
     .logo{
         display: none;
