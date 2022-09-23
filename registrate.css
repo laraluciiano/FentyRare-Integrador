@@ -325,7 +325,7 @@ header{
       background-color: #FDFBF8;
   }
 
-@media (max-width:1328px) {
+@media (max-width:1328px){
     .logo{
         display: none;
     }
@@ -333,7 +333,13 @@ header{
         display: flex;
         justify-content: space-around;
         gap: 0;
+    }
 }
+
+@media (max-width:1272px){
+    .paragraph-contact{
+        display: none;
+    }
 }
 
 @media (max-width:768px) {
