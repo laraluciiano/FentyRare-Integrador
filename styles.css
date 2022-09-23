@@ -607,8 +607,12 @@ button{
 
 @media (max-width:425px) {
     .nav-info{
+        margin-left: -10vh;
         font-size: 11px;
         text-align: center;
+    }
+    .nav-icon-container{
+        margin-right: -10vh;
     }
     .nav-icon{
         font-size: 11px;
@@ -619,7 +623,7 @@ button{
     .about-us-info h2{
         width: 70%;
         font-size: 4vh;
-        margin-left: 83px;
+        margin-left: 60px;
         text-align: center;
         margin-top: 90px;
         padding: 0;
@@ -634,7 +638,7 @@ button{
     .about-fenty-info h2{
         width: 70%;
         font-size: 4vh;
-        margin-left: 83px;
+        margin-left: 60px;
         text-align: center;
         margin-top: 90px;
         padding: 0;
@@ -648,7 +652,7 @@ button{
     .about-rare-info h2{
         width: 70%;
         font-size: 4vh;
-        margin-left: 83px;
+        margin-left: 60px;
         text-align: center;
         margin-top: 90px;
         padding: 0;
@@ -669,6 +673,7 @@ button{
     .container-section-info{
         display:block;
         padding-bottom: 10px;
+        margin-left: 60px;
     }
     .container-element-info{
         width: 40vh;
@@ -677,7 +682,7 @@ button{
     }
 
     .contact-info h3{
-        font-size: 15px;
+        font-size: 25px;
     }
     .paragraph-contact{
         display: none;
