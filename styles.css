@@ -240,6 +240,17 @@ header{
     text-shadow: 0 0 8px rgba(0, 0, 0, 0);
 }
 
+
+#imagenesLaterales{
+    width: 743px;
+    height: 927px;
+}
+
+#imagenMedio{
+    width: 595px;
+    height: 737px;
+}
+
 footer{
     background-color: black;
     position: relative;
@@ -673,12 +684,12 @@ button{
     .container-section-info{
         display:block;
         padding-bottom: 10px;
-        margin-left: 60px;
     }
     .container-element-info{
         width: 40vh;
         height: 30vh;
         margin-bottom: 30px;
+        margin-left: 10px;
     }
 
     .contact-info h3{
